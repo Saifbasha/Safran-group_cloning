@@ -1,0 +1,105 @@
+footer{
+    height: 96vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-color:  #111827;
+    color: #fff;
+}
+footer>div{
+    height: auto;
+    width: 100%;
+    padding: 25px 20px;
+}
+footer>div>details>summary{
+    cursor: pointer;
+}
+footer>div>details>p{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+footer>ol{
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 20px;
+}
+footer>ol>li>p{
+    font-size: 17px;
+    color: rgb(255, 255, 255,0.4);
+}
+footer>ol>li>img{
+    height: 20px;
+}
+footer>ol+div{
+    /* border: 2px solid; */
+    height: 250px;
+    padding: 0px;
+    position: relative;
+    background-image: url(./images/RADAR_1920X1080_EN.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0,0.5);
+    /* opacity: 0.5; */
+    color: #fff;
+}
+footer>ol+div>div{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 5;
+    color: #fff;
+    background-color: rgb(0, 0, 0,0.5);
+}
+footer>ol+div>div>div{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    /* border: 2px solid; */
+}
+footer>ol+div>div>div>span>p{
+    font-size: 45px;
+}
+footer>ol+div>div>div>span+p{
+    margin-top: 20px;
+}
+footer>ol+div>div>div>span+p::before{
+    content: "------";
+}
+footer>ol+div+div{
+    height: 29vh;
+    width: 95%;
+    margin: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>ol+div+div>div{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>ol+div+div>div>span>img{
+    height: 3.5em;
+}
+footer>ol+div+div>div>ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+footer>ol+div+div>div>ol>li{
+    cursor: pointer;
+    font-size: 15px;
+}
