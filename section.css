@@ -36,13 +36,22 @@ section>div+div>p+p{
     padding-top: 20px;
     color: #fff;
 }
-section>div+div>input{
+section>div+div>div+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 50px;
+    background-color: transparent;
+    /* border: 2px solid red; */
+      margin-top: 20px;
+}
+section>div+div>div+div>input{
     height: 50px;
     width: 800px;
     background-color:rgb(255, 255, 255,0.2);
     /* border: 1px solid; */
     border: none;
-    margin-top: 20px;
 }
 section>div+div>div{
     width: 2px;
@@ -50,16 +59,16 @@ section>div+div>div{
     background-color: #fff;
     margin-top: 10px;
 }
-section>div+div>input::placeholder{
+section>div+div>div+div>input::placeholder{
     color: #fff;
     padding-left: 20px;
 }
-section>div+div>input+div{
+section>div+div>div+div>input+div{
     height: 50px;
     width: 50px;
-    position: absolute;
+    /* position: absolute;
     bottom: 350px;
-    right: 225px;
+    right: 225px; */
     background-color: #255b8e;
     display: flex;
     justify-content: center;
